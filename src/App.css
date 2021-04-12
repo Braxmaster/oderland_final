@@ -1,0 +1,23 @@
+.content {
+	margin: auto;
+	width: 60%;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navGrid {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: repeat(auto);
+}
+
+.navGrid a {
+	color: gray;
+	text-decoration: none;
+}
+
+.isActive {
+	color: black !important;
+}
